@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 10px;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'IBM Plex Sans Arabic', 'Tajawal', system-ui, sans-serif; }
+.container-slim { @apply max-w-7xl mx-auto px-4; }
+.card { @apply rounded-xl border border-white/10 bg-slate-900/40 backdrop-blur; }
+
+/* Light/Dark helpers */
+.theme-light { @apply bg-white text-slate-900; }
+.theme-dark  { @apply bg-slate-950 text-slate-100; }

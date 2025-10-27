@@ -1,0 +1,1416 @@
+{
+  "artifacts": [
+    {
+      "path": "ai/rag_pipeline_improved.py",
+      "sha256": "297ccf55ac74d8871e8650dcd9755c986b4d39f5dbdc42a77b8b244cb0b81643"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "a37db90643eadf9b64ee1ed1983bd9c1e20610bd983b9eb5228764b7edc2ed11"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/.gitlab-ci.yml",
+      "sha256": "273fe1e76e42b607edfb164872e5356e70a64d18f646927f10b6711704f8f915"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/PROMPT.json",
+      "sha256": "9e8b5f38940e886b992abd3d745b747cf21b1c9944c7f3db857b018336034860"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/ai/rag_pipeline_improved.py",
+      "sha256": "8c766d02ff30356c9fd0ac9373aa64f0c68a2e0506563a7556b43bef4d9b86cd"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/docs/README.md",
+      "sha256": "8dd0d10ff16d992dcc1294ad28fe335fad3b162f54d789bcad59290c5f292ad9"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/docs/SECURITY.md",
+      "sha256": "2302c05112825e2aa3a57e0948915a823aa87f46d3fc7f89ec3934e9e5e4334d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/docs/PRICING.md",
+      "sha256": "77c8b84ee90b977cd8840bd21042a942d1fc10f32d78e8ef92c1940fb36ebd62"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/docs/DEPLOYMENT.md",
+      "sha256": "bf7762769f39c2e54d988fdb1ca767a7676cecb0b8d59743297258305e9c60cf"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/namespaces.yaml",
+      "sha256": "3b5f37681dfc0b18d8cac46d322850e78fd3f59adffb901d4204f8221d47e767"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/ai/vllm.yaml",
+      "sha256": "093c595a8e912946cbbe01e0967a00991f8b77c2bc3fdf533df3d2e858f41c39"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/ai/rag-api.yaml",
+      "sha256": "d3bb07fab4e6b655ade51512a45953e5187e4909b332206fb909d5065b082935"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/apps/pricing-cm.yaml",
+      "sha256": "1707a565be18917148cfd85e39cf9b640540529a3ff827f182553c62919e4cd9"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/apps/api-deployment.yaml",
+      "sha256": "bf002db74c091adb2317885a04b66cbffa8a0bd6aab899bd32544c8e7a10256a"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/apps/ui-deployment.yaml",
+      "sha256": "fdb9bdcbef3a0de8a0dd2af788a2983fe6c1b0a1a6355274b952fc05e3e2080b"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/apps/ingress.yaml",
+      "sha256": "0de51f848e36f97628a6dab5be37194ff46daa0ba2b5dc15521aa984f2d9092d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/cert-manager/selfsigned-issuer.yaml",
+      "sha256": "b68c4f036d5c8e1bf0cc79bfa65e5ce7efbfecdd1925fe1aaca1cd62860d5724"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/data/storageclass-cinder.yaml",
+      "sha256": "bb6fc1ec0cefb2fe5d71439e1c265749df16c7c24074d0124594705fa936cdbb"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/data/db-secrets.yaml",
+      "sha256": "17c79d427578f96b411a39af1d0e75161023b26d32e486ffd43af443a2110c8c"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/data/postgres-init-configmap.yaml",
+      "sha256": "1e48a960462c58f4fa95f7b3d1e9388769ee335a6f3db9a73257370f3ab5c903"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/data/postgres.yaml",
+      "sha256": "4c59ab6fb145b52f44b4c5ff8bcb008498847e6ae6585090abc17d794e840012"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/data/redis.yaml",
+      "sha256": "cfe08173f66aad6a758333ebae1d2a7ebc879965cf8fcbf3d341500e650cc6ca"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/observability/prometheus.yaml",
+      "sha256": "c211e379cd00072b5f11750db9f69c3121d0d9f079a6b1dd2831cd44f2623c8f"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/observability/grafana-ds.yaml",
+      "sha256": "9d76eb949861e4839758fecb41be07e6c94a602b0e53db49c9178843e7898f58"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/observability/prometheus-rules.yaml",
+      "sha256": "ce199c996fcf39db50c9d6ec409771491f442674f3af1f5698c43438fdad3636"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/security/networkpolicy-deny-egress.yaml",
+      "sha256": "c125f9574486080c7c4d2c5ca939aea4600cfd8e2eda72558d5508c0fb06eeac"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/security/networkpolicy-allow-core-egress.yaml",
+      "sha256": "d45df677b81e691ef0119718bc82748c76b8bd2319005c26a9d4d662f9bd1828"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/k8s/security/clusterimagepolicy.yaml",
+      "sha256": "398759422f8064624edbb7784fe4cb979beb44810c45a298547a2ba384eaa46b"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/backend/gra.api/Program.cs",
+      "sha256": "84e62088eb095e2c715fd5fd6ae8a85413d9cd801b3920827eb59884ae7423c5"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/backend/gra.api/gra.api.csproj",
+      "sha256": "b3a7c7279cbf69b276b22b3e22d3f0d492b416156ae60f735ce1762c599c7d9f"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/backend/gra.api/Dockerfile",
+      "sha256": "2d2dec42807b98272674199c6be2413ada34f4d1b47d59088b71de1eb729f921"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-billing/index.js",
+      "sha256": "a30eecb0ce6c9c83805975fa8c9fcc3f764e3b090df1232ac6c61a2628519c92"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-billing/package.json",
+      "sha256": "c1bbc13d1816a6234051757252e5ec2d371af410d46a31d36c8d91803e44d5c7"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-billing/Dockerfile",
+      "sha256": "035ea2652a5ae53d2e89079ca33adf3e6503dd95aceca88b3202a226f3ed249d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-embedding/index.js",
+      "sha256": "0476a9c169685c48d4b15c7f0545104fa20a02f4d0e22d12029d188b3faa93c1"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-embedding/package.json",
+      "sha256": "c1bbc13d1816a6234051757252e5ec2d371af410d46a31d36c8d91803e44d5c7"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-embedding/Dockerfile",
+      "sha256": "035ea2652a5ae53d2e89079ca33adf3e6503dd95aceca88b3202a226f3ed249d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-ingest/index.js",
+      "sha256": "e9c5abd5839ba5df4b9b6327cf0d5df848adba53a00468fa7d1e94776710a786"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-ingest/package.json",
+      "sha256": "c1bbc13d1816a6234051757252e5ec2d371af410d46a31d36c8d91803e44d5c7"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/node-ingest/Dockerfile",
+      "sha256": "035ea2652a5ae53d2e89079ca33adf3e6503dd95aceca88b3202a226f3ed249d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/rag-api/index.js",
+      "sha256": "d3ef70dc0725a0be03cd6603a0d297ab144db67a117789f26be8c5c7467e9577"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/rag-api/package.json",
+      "sha256": "c1bbc13d1816a6234051757252e5ec2d371af410d46a31d36c8d91803e44d5c7"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/services/rag-api/Dockerfile",
+      "sha256": "035ea2652a5ae53d2e89079ca33adf3e6503dd95aceca88b3202a226f3ed249d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/package.json",
+      "sha256": "bb667530dada58b2685c33298846b20d4191e8c72a2f7c829fc5a619e7a07b15"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/tsconfig.json",
+      "sha256": "7dc9728fb1a1239358f0e91d37ff52dd5a295f332afc460dabf6d72706c52866"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/next-env.d.ts",
+      "sha256": "879741880b6ab48da99dcc06dcc674d381c9826137b0496bf7bb368f302de9fc"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/next.config.mjs",
+      "sha256": "317392cc28976a0c127d6c915b0f07d0c9644ed8b169411363ce350a155d1c3b"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/postcss.config.js",
+      "sha256": "fe0d5cf3cb8c1922f71cca2da3796f3e63366623ad6164336655766efe330e6a"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/tailwind.config.ts",
+      "sha256": "3d046221546a8f03b142d8d8719d42353d891816b93bfbdcfc59f5998cc4066c"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/Dockerfile",
+      "sha256": "132b49904748310591379b1eb13173b9fbeecefc0a904d1a471d5215c3cfd249"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/globals.css",
+      "sha256": "9743d20a62af11ec76a2bd4cba4f030145ac8c0e0cbd14f9f050f43a80451fc9"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/layout.tsx",
+      "sha256": "5f0175aa490ee619939cb5bc9d3fce503b48b750858a811108b1a875a2204b2a"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/page.tsx",
+      "sha256": "05cdfe85d053d967317fb876b17cfb6715101a35cdc91666f979f60336811dab"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/ai/page.tsx",
+      "sha256": "4aac7bcb09f2a6e05487ecc5468acdfd9af378ae7fd99fb6e0ea958b462ee23d"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/billing/page.tsx",
+      "sha256": "cdec8299cbe3a5225cda5a934625d3e3bd670ad5ef3cce641a96bb0060e89099"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/dashboard/page.tsx",
+      "sha256": "253863df69824a41ec690e227f4d67a4894a11d337a3aeab986a2001a75a1ba9"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/dashboard/components/MetricCard.tsx",
+      "sha256": "61c6dbe7e7da2de17f41ee0395bd2bd516ed62f7f8649eb25cf6b75ef8288abd"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/dashboard/components/KPIChart.tsx",
+      "sha256": "997a2af943f88f7df6e62a28174e73f71d80f0cb1c7c9910a295683e0da3863f"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/dashboard/components/AIPerformanceGraph.tsx",
+      "sha256": "ba7052fba17ee896173f5a4b49aa27cfbd9c84005d6923949021864fe0917ca6"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/dashboard/components/UsageTrends.tsx",
+      "sha256": "cf1ffaf38a31123bbf4f9b43d6f929dd7bd054094b0806f25dc8f2af25c36386"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/dashboard/components/TenantSelector.tsx",
+      "sha256": "b1cc39ebb6c3725aeae9f0a6972f57d36ceb4e9a6a51b20dd6bd3dd89d491314"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/security/page.tsx",
+      "sha256": "618aef543c3602ece14584a58bc08047236464902fdfdc2f778e38bf23e1f4ec"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/app/settings/page.tsx",
+      "sha256": "c9f7bd39250aadf8a2380d81017233294f0d7b45534777437c6920c89ebeed86"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/components/Sidebar.tsx",
+      "sha256": "586f9c17e5f5949f03b9f9f0ed5e030ce614592d9eeb105f49b5a8738881b3f8"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/components/Topbar.tsx",
+      "sha256": "752bf0ef125fc981c704f022bae371b3ff9be4210ab5b82e9af642732eedeaae"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/components/ThemeSwitcher.tsx",
+      "sha256": "69fcad31000331ebfde46a00bf6d6a0e8c05fb3662060cf45f31ee53967dac8f"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/components/LangToggle.tsx",
+      "sha256": "6e54308de8375d073b648da04a9638f6c181369ce906d91b56ef1e36e1854e3f"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/src/ui/lib/api.ts",
+      "sha256": "45c33ffc33341635a4537afb255e232d46b833ef0eb3184ae23e084adaf5bdd0"
+    },
+    {
+      "path": "gra-genius-2025.1-PRODUCTION-DELUXE/terraform/main.tf",
+      "sha256": "40a418fc63b73323958ed88569d39dfc15a7edbb4d6bb4c4219b493fc4b586ef"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/README.md",
+      "sha256": "be6d25616b6a3afb17fbb6e2157b56734363915a16d9741231e2f3f46f3145dc"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/Makefile",
+      "sha256": "e75214da2f95a1d77b66a5ba4e4ce537014055394650c216d2512c142fd33255"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/docker-compose.yml",
+      "sha256": "fd178edaa0cfb99930d12324ec0b87af26605cc79dfdbcb2f9f47dc49519c2bb"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/ai/rag_pipeline.py",
+      "sha256": "a001a27696be983fe0715fbd1ac175b6b70eb0b9f2955bd07df9ccefb4400ace"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/ai/finetune_peft.py",
+      "sha256": "667ca473d55e7cba5bb358335a9ae952bfcb66c197d73f0c73a72efed47499a5"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/ai/eval_rag.py",
+      "sha256": "823ff17dcc79862d7d5334f015d70f90d3840ff4daeb556a0a5d054103e804b7"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/ai/requirements.txt",
+      "sha256": "b98a9388aa9d31b420c27ecc7e19ee42f8d6b2d9c00115588cb267ebf16abd3e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/ci/.gitlab-ci.yml",
+      "sha256": "3b89437d2e347d06b789d12a7106b8e37bd1ec6f3773fd24a100220384171ee4"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/compliance/dpia-template.md",
+      "sha256": "5172b24d6259a3c73e13353c12aa29afa10b7afe3be42830882d510a7a284c0d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/compliance/compliance-matrix.csv",
+      "sha256": "fdec4410cd9a90fe24cb1b60ed860caa5fe9332ab7835d7033ba403ae4187549"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/compliance/risk-register.json",
+      "sha256": "5f291fc198b22f324eaf8b6ffa04f160f9d2aaabd36c6f322910e708ad7ca2d3"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/compliance/generate_evidence.py",
+      "sha256": "26c30aa3a326d930767de9652d5be12dd3f635201e3cdfc0be0b0e28e4962c39"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/db/schema.sql",
+      "sha256": "882357fcbfacc35e191c06fcc32407a21686c450b44d14b749ba4d21a76df795"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/infra/main.tf",
+      "sha256": "8847d38628b5fff49f426afd296f756efd8e067d348fa62b3606f261b7efc164"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/00-namespaces.yaml",
+      "sha256": "5ef3d0309b98c901f10d29bf6f7e85848ae798d2604dae9446b5d77fcd508a36"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/01-quotas-limits.yaml",
+      "sha256": "a78b2c7c979d2408823df2bf8cdc6c873a1c366a59a93f13fbf00969045639f1"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/02-network-default-deny.yaml",
+      "sha256": "2f82f0d420183c0dd36bdd8d5d7dc9a1e68c6309c459182240a24672d4300056"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/10-postgres.yaml",
+      "sha256": "0d06e00e43bffb7c4fb539d22a1c57e2fc44ca9f14e457df036d970726038356"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/11-redis.yaml",
+      "sha256": "0de729652e68d107d6d24327d7a22279acc74d6cd01e1d3372e16559132c662a"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/12-minio.yaml",
+      "sha256": "a48722392a8e1deb6ae0f8145cc97e9cba46e3aff1c469c5982df6f0f83c63b2"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/platform/vault.yaml",
+      "sha256": "7e8d1c8fe7fa405e4c7a264ecbc73471c5f8343872d78620910bdc79d2b3193e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/platform/keycloak.yaml",
+      "sha256": "512f7e73173f08a0c98bf9974ea2ff093ba2e2590e8b75f6fd4d13f46bd34814"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/platform/gitlab.yaml",
+      "sha256": "20dcf7c5d54619d6c7d2ca4aedb54f2c79324e1e4dbaf06b1ae1b3f0359e3496"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/k8s/platform/gitlab-runner.yaml",
+      "sha256": "f8529c23ef43f749ab5903dff0429c91e46abffc4fbec2992eafb3ee6b32b468"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/observability/grafana/dashboards/slo-api.json",
+      "sha256": "169bbd0e75bab5c8af1940e4aacdb48202c0f33aba0b005ccdd116c2332c6641"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/observability/loki/config.yml",
+      "sha256": "8ab06a90b77e7fbbe6caa3da1a4ca34696001ad21c339e10c04aecf8830c33b8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/observability/prometheus/prometheus.yml",
+      "sha256": "fb4f9dfc2984ae369758d8ac239efa860f293d3088cdf5c91df6385a5741ff30"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/scripts/bootstrap.sh",
+      "sha256": "9d7e09fccaac37490ae098f047073bd8cf6b153fd7ebf7a00fe4af7d0ee43d3e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/scripts/deploy-core.sh",
+      "sha256": "bdee09c823223437b7593aca8cc931a39bd970f0e54ce7452714aa6903d72e52"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/scripts/deploy-apps.sh",
+      "sha256": "6a58005733f85574f2b866f12b5616dab7813d16327a3ff10ffd03c9dee49920"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/security/kyverno-require-signature.yaml",
+      "sha256": "26f3c78ac9987d8241529efee770a8b3711ca06913e8dee47a39e31ed6f60b0c"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/backend/gra.api/gra.api.csproj",
+      "sha256": "b3a7c7279cbf69b276b22b3e22d3f0d492b416156ae60f735ce1762c599c7d9f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/backend/gra.api/Program.cs",
+      "sha256": "9d1c7ea5db69a60541df87832b40b362706e6517b461575171bda110ab7d14e5"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/backend/gra.api/Dockerfile",
+      "sha256": "2fe1c3e99c342b259c4042fd5447490949ee456791d99fcfced0d2f3426360e2"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-billing/package.json",
+      "sha256": "3048aff38ecbe272d3132f8f6b7bb62ade751aad46b503c31b9237a6669350fe"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-billing/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-billing/src/index.js",
+      "sha256": "0b103eef173def5892d85ae41f904a99ebb4a466a340b0c49f5afdac9483a10f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-embedding/package.json",
+      "sha256": "576f447edc1d4a72bcbc37cd7c6995f7e32a1f646557cb723ff234e90f3c74a9"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-embedding/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-embedding/src/index.js",
+      "sha256": "12686cb944679d0f73e44f840b15f10c80059ad9074ea631710af8dea25810be"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-ingest/package.json",
+      "sha256": "d7bd8394d9ab18d7da1edf5ffd0092c530857b0ad5b712907bab00a048e299be"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-ingest/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/services/node-ingest/src/index.js",
+      "sha256": "7b694e240809975f40e122e21638fa2927d5074ec2ce835a1752f6e1ca69a397"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/ui/package.json",
+      "sha256": "fb19a561295d1babbcf97870072dbf71ee9b929131923978430284b0f7696b7b"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/ui/next.config.js",
+      "sha256": "39e7dd00902641d24131730a18ac06a1fc5d245d6a1a607a095619d874f42d0b"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/ui/Dockerfile",
+      "sha256": "03e76bf0cd566716eac9478f84b1610024b6a1c88852b87a4c4b00d9ae570f1f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/W-release/src/ui/pages/index.js",
+      "sha256": "41b4bbf2aa7f707e9d81f1cdbf06b2acc69dc74faeb636cf4f2aa725d3ec9764"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/README.md",
+      "sha256": "2ef9062a3be5575e41e67008484eb9a89799f0da2900aec7065cee815ef30fba"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/LICENSE",
+      "sha256": "f7330aa3fd97daff42f508efbdc70c624194afbfb832a803d0a02029da0e508e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/Makefile",
+      "sha256": "941a917fe2563ff42dd2efeafcc74064aa269d7132dbabd5d3faeadefc1d2ec5"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/docker-compose.yml",
+      "sha256": "1cf157c08738b574b63b9d3ea03dc4e4f522cb239eb297c93c314ec206d2473d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ai/rag_pipeline.py",
+      "sha256": "bce8ee8f49bfb73ef9a275186c678d76cea64044d9320ebf968c5bba229bf4f8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ai/finetune_peft.py",
+      "sha256": "d63b6a993ddb2c11b942e73ec975dcef4a65f8d69136b536a07d7738a4a8997d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ai/requirements.txt",
+      "sha256": "53c5dcc9b14039bf0a73e7fbd710c5524b7aab3fa83dddb5fcb7b6ba21be6825"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ai/vllm-deployment.yaml",
+      "sha256": "c63b7452dd72fa1f797ebcd133950939ae78003070c4192f7718a4fd4e9074b9"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ci/.gitlab-ci.yml",
+      "sha256": "df3b31be9999beb4bf7bf329352e5f291942d1844e5ed9b2992ef87eb1e71014"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/compliance/compliance-matrix.csv",
+      "sha256": "cde7bf535facbedbcede04b0d561bf4b92cae9160b87a6cdba4cb3a42abfee29"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/compliance/dpia-template.md",
+      "sha256": "054f7a8cddd0a7b70e5cb188bb6a2d67e72848c0ed8429d3c08eb7b7cd667cb0"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/compliance/risk-register.json",
+      "sha256": "b8156d1a0002851b73d8482e404cea81b97accd8aea26b84e36178cc0d78522e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/compliance/generate_evidence.py",
+      "sha256": "3400a086c25359f08c2bc44125e8d4ec2d53c5de36c21335c1ce093211c15210"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/db/schema.sql",
+      "sha256": "e39581b7d2d347ef946e1af5e9e3d24839f08f3acad223c85283b6b82d4051bf"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/db/pgbouncer.ini",
+      "sha256": "944d8c7ecdc6be612207465a776ccb08af1b01d8741000a442a2061120fe812a"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/docs/GRA-Genius-Execution-Plan.md",
+      "sha256": "3f875e6a50166ae4ad3733a72212ffdd5e25d9c56d7d721e76555725aa5b57c8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/infra/main.tf",
+      "sha256": "31494b8860e24647d6206b0e057616284171646c61f8760ff64dd86afeef3416"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/infra/variables.tf",
+      "sha256": "f41958ccf5604b9d36d09d87bae778671c7d404bf009c0974b2aef3f3ae9f60f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/infra/outputs.tf",
+      "sha256": "ebd8f4d1dff728810aa6eb67052a1008664b57d3b516f3398bad9ddd65ad2a10"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/k8s/namespaces.yaml",
+      "sha256": "5ef3d0309b98c901f10d29bf6f7e85848ae798d2604dae9446b5d77fcd508a36"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/k8s/networkpolicy-deny-egress.yaml",
+      "sha256": "7d34aad64b6907135c7ac6c25115193c8e520e0662ff45b5c94bea9e2e8f2a64"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/k8s/postgres.yaml",
+      "sha256": "7c6540801d8a34095222d4d5727a24e8ffb693f966ee32f74d89bfe57f326146"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/k8s/redis.yaml",
+      "sha256": "40e11fb54794da4d4fec335b17a98025ae20df903d92a646723159c7695cad1d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/k8s/vllm.yaml",
+      "sha256": "443827a0ac657d97a71f0dbbd2efdf99c123c3568d12fd86c13ccdeae7845338"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/k8s/observability.yaml",
+      "sha256": "48af6779f09afaaa913184f39a3fb23d5e5ecdf8a154ad89dd8627bfdb52ed50"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/observability/loki/config.yml",
+      "sha256": "71072a75f23a439b1afe7028480d2ef7ed88f0b7be1852b32a0e7b2537dc58e9"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/observability/prometheus/prometheus.yml",
+      "sha256": "ec4522262bb73d5f4e53c76d1c790d22799aa7e9d0861c0a2aa95262acb80a5c"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ops/runbook-backup-restore.md",
+      "sha256": "1f230ae9453789c80fdddcd7a6c413552f33a288e23097c6dfa20e1bb8cce30c"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/ops/runbook-incident-response.md",
+      "sha256": "70d0e17301368899d3c6e3cdb568040d723cece3d32dc7b4abe0e4f3a810692a"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/scripts/bootstrap.sh",
+      "sha256": "2f1a36db09005582e003380a94888a18aecfb9aa37e7141926178507f4f254e8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/scripts/deploy.sh",
+      "sha256": "796e1c457d8ddc957041c722a3e06295a25ac10cc9d475bcaca62b30e3b31212"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/security/gatekeeper-cosign-constraint-template.yaml",
+      "sha256": "27c1a52f4791ade1b5cf171085679ad7741156f1b661d457c4d5b100093ac8a6"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/security/network-default-deny.yaml",
+      "sha256": "2f82f0d420183c0dd36bdd8d5d7dc9a1e68c6309c459182240a24672d4300056"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/backend/gra.api/gra.api.csproj",
+      "sha256": "a340204a249d3e794e5bd42bca41aa0d8bb213412e88d095d1a521c983be2ba8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/backend/gra.api/Program.cs",
+      "sha256": "214ceca47b520dc0f67096cf90f81da857e481285c59f33f6de58fbf9836b69d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/backend/gra.api/Dockerfile",
+      "sha256": "2fe1c3e99c342b259c4042fd5447490949ee456791d99fcfced0d2f3426360e2"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-billing/package.json",
+      "sha256": "3048aff38ecbe272d3132f8f6b7bb62ade751aad46b503c31b9237a6669350fe"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-billing/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-billing/src/index.js",
+      "sha256": "552122af29b008f565009333fe9b7c51ac3989751134fd3a1516c9e2fbe7e452"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-embedding/package.json",
+      "sha256": "576f447edc1d4a72bcbc37cd7c6995f7e32a1f646557cb723ff234e90f3c74a9"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-embedding/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-embedding/src/index.js",
+      "sha256": "876d38fd1e4ff49dfa376f185ff664f9a361beeaa3695e4f0be69aed6deafa61"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-ingest/package.json",
+      "sha256": "d7bd8394d9ab18d7da1edf5ffd0092c530857b0ad5b712907bab00a048e299be"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-ingest/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/services/node-ingest/src/index.js",
+      "sha256": "15c0e2b650ca328028b3b87a2168d8d2a69c5542470153d3af708801e003ad37"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/ui/package.json",
+      "sha256": "fb19a561295d1babbcf97870072dbf71ee9b929131923978430284b0f7696b7b"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/ui/next.config.js",
+      "sha256": "39e7dd00902641d24131730a18ac06a1fc5d245d6a1a607a095619d874f42d0b"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/ui/Dockerfile",
+      "sha256": "c291b8cd762ad8565702b267fbae16659ee2a9630f4fb47506b45047b759af9f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/starter-kit/src/ui/pages/index.js",
+      "sha256": "3592569905b84fb4eae4577471335163a55659a4a040126f33d92d65df0929e8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/README.md",
+      "sha256": "be6d25616b6a3afb17fbb6e2157b56734363915a16d9741231e2f3f46f3145dc"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/Makefile",
+      "sha256": "e75214da2f95a1d77b66a5ba4e4ce537014055394650c216d2512c142fd33255"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/docker-compose.yml",
+      "sha256": "fd178edaa0cfb99930d12324ec0b87af26605cc79dfdbcb2f9f47dc49519c2bb"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/README-ULTIMATE.md",
+      "sha256": "c6ebd9eeed8e07e17b344d980b6b1718f907e7f4d5b8290187e1300a8a9f8027"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/ai/rag_pipeline.py",
+      "sha256": "a001a27696be983fe0715fbd1ac175b6b70eb0b9f2955bd07df9ccefb4400ace"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/ai/finetune_peft.py",
+      "sha256": "667ca473d55e7cba5bb358335a9ae952bfcb66c197d73f0c73a72efed47499a5"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/ai/eval_rag.py",
+      "sha256": "823ff17dcc79862d7d5334f015d70f90d3840ff4daeb556a0a5d054103e804b7"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/ai/requirements.txt",
+      "sha256": "b98a9388aa9d31b420c27ecc7e19ee42f8d6b2d9c00115588cb267ebf16abd3e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/ci/.gitlab-ci.yml",
+      "sha256": "3b89437d2e347d06b789d12a7106b8e37bd1ec6f3773fd24a100220384171ee4"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/compliance/dpia-template.md",
+      "sha256": "5172b24d6259a3c73e13353c12aa29afa10b7afe3be42830882d510a7a284c0d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/compliance/compliance-matrix.csv",
+      "sha256": "fdec4410cd9a90fe24cb1b60ed860caa5fe9332ab7835d7033ba403ae4187549"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/compliance/risk-register.json",
+      "sha256": "5f291fc198b22f324eaf8b6ffa04f160f9d2aaabd36c6f322910e708ad7ca2d3"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/compliance/generate_evidence.py",
+      "sha256": "26c30aa3a326d930767de9652d5be12dd3f635201e3cdfc0be0b0e28e4962c39"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/db/schema.sql",
+      "sha256": "882357fcbfacc35e191c06fcc32407a21686c450b44d14b749ba4d21a76df795"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/docs/starter-kit/GRA-Genius-Execution-Plan.md",
+      "sha256": "3f875e6a50166ae4ad3733a72212ffdd5e25d9c56d7d721e76555725aa5b57c8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/grafana/Chart.yaml",
+      "sha256": "1005325816c79a8f9f5b504c16c6d151acfa05656620d5e1551eca9f3d35d481"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/grafana/values.yaml",
+      "sha256": "ef051f6f2a49aaaa0ab0af34cd73556ca3b54a1f17796075848f831b11a9f619"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/grafana/templates/deployment.yaml",
+      "sha256": "c523dff55bbf5e3d5e6964449cddacefe3031f0eed82dd686ad41d225f79e9e7"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/ingress-nginx/Chart.yaml",
+      "sha256": "1a3ec4a341b4ee5cab0e97179e9c0214550421823a016a737bc26ff6a987f09f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/ingress-nginx/values.yaml",
+      "sha256": "29042f996ddcfb6d1dbfd6a786ed20851054c72b98ed3619a12f04f49d226b89"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/ingress-nginx/templates/ingressclass.yaml",
+      "sha256": "f5dd71982c942ed3de766f5426bdef90763c1e87ab306b6122554adca9557c22"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/keycloak/Chart.yaml",
+      "sha256": "73c9bfeaeac6c0425a709fd111c33fe1d95592745ddd72839135868bf583292d"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/keycloak/values.yaml",
+      "sha256": "cb38b506f9450cc1934ec219cf016ef1d3c8620aee5bb0874f89bcb4ba68f3b3"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/keycloak/templates/deployment.yaml",
+      "sha256": "068f9725810128f56b7b8216bf23204e0d58eb9f0d7a6cc340025323701fda27"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/loki/Chart.yaml",
+      "sha256": "7dc9f07c7505264dad8d1ef6179df6ca96fcfd4689bd7a534831007339515506"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/loki/values.yaml",
+      "sha256": "73266731bd5b31865052e2b61469f86681adf0415b8fb9d16faf758f7c2c2994"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/loki/templates/deployment.yaml",
+      "sha256": "509186aea8ced493fbc9149e0879ea22ca8c4a967f04e2f706922e3f5af19220"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/prometheus/Chart.yaml",
+      "sha256": "722c953f82e3f37862466b1191ff66bdf052a1645449c77214e930e8233355b2"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/prometheus/values.yaml",
+      "sha256": "eca2455873ea7254ad92dc1ff85cd0a9dd508b400083f984483d8b15d88a25ce"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/prometheus/templates/deployment.yaml",
+      "sha256": "8092c0d24246be4aa282e78e7094cf3dcf7f75964863a10a277c985114f9deaf"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/vault/Chart.yaml",
+      "sha256": "358a46c266413faa6189214879a06c4c2904c7c153373204509f113dff3bf7e3"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/vault/values.yaml",
+      "sha256": "15b5e09d49fd9c45887d57c5f27fcb7e9f72610b5be97f82b44bfd6bf18873aa"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/helm/vault/templates/statefulset.yaml",
+      "sha256": "eefa8616c08f6193b0f74ec3b38ca3a9cc96a7a2f4b967aa4593dfc06e3d3c5e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/infra/main.tf",
+      "sha256": "8847d38628b5fff49f426afd296f756efd8e067d348fa62b3606f261b7efc164"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/00-namespaces.yaml",
+      "sha256": "5ef3d0309b98c901f10d29bf6f7e85848ae798d2604dae9446b5d77fcd508a36"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/01-quotas-limits.yaml",
+      "sha256": "a78b2c7c979d2408823df2bf8cdc6c873a1c366a59a93f13fbf00969045639f1"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/02-network-default-deny.yaml",
+      "sha256": "2f82f0d420183c0dd36bdd8d5d7dc9a1e68c6309c459182240a24672d4300056"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/10-postgres.yaml",
+      "sha256": "0d06e00e43bffb7c4fb539d22a1c57e2fc44ca9f14e457df036d970726038356"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/11-redis.yaml",
+      "sha256": "0de729652e68d107d6d24327d7a22279acc74d6cd01e1d3372e16559132c662a"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/12-minio.yaml",
+      "sha256": "a48722392a8e1deb6ae0f8145cc97e9cba46e3aff1c469c5982df6f0f83c63b2"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/platform/vault.yaml",
+      "sha256": "7e8d1c8fe7fa405e4c7a264ecbc73471c5f8343872d78620910bdc79d2b3193e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/platform/keycloak.yaml",
+      "sha256": "512f7e73173f08a0c98bf9974ea2ff093ba2e2590e8b75f6fd4d13f46bd34814"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/platform/gitlab.yaml",
+      "sha256": "20dcf7c5d54619d6c7d2ca4aedb54f2c79324e1e4dbaf06b1ae1b3f0359e3496"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/k8s/platform/gitlab-runner.yaml",
+      "sha256": "f8529c23ef43f749ab5903dff0429c91e46abffc4fbec2992eafb3ee6b32b468"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/observability/otel-collector.yaml",
+      "sha256": "69850ba97c177e2dbc9ca4076281d08c87dd2482ae8f15c30067f5f433693320"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/observability/grafana/dashboards/slo-api.json",
+      "sha256": "169bbd0e75bab5c8af1940e4aacdb48202c0f33aba0b005ccdd116c2332c6641"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/observability/loki/config.yml",
+      "sha256": "8ab06a90b77e7fbbe6caa3da1a4ca34696001ad21c339e10c04aecf8830c33b8"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/observability/prometheus/prometheus.yml",
+      "sha256": "fb4f9dfc2984ae369758d8ac239efa860f293d3088cdf5c91df6385a5741ff30"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/scripts/bootstrap.sh",
+      "sha256": "9d7e09fccaac37490ae098f047073bd8cf6b153fd7ebf7a00fe4af7d0ee43d3e"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/scripts/deploy-core.sh",
+      "sha256": "bdee09c823223437b7593aca8cc931a39bd970f0e54ce7452714aa6903d72e52"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/scripts/deploy-apps.sh",
+      "sha256": "6a58005733f85574f2b866f12b5616dab7813d16327a3ff10ffd03c9dee49920"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/security/kyverno-require-signature.yaml",
+      "sha256": "26f3c78ac9987d8241529efee770a8b3711ca06913e8dee47a39e31ed6f60b0c"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/backend/gra.api/gra.api.csproj",
+      "sha256": "b3a7c7279cbf69b276b22b3e22d3f0d492b416156ae60f735ce1762c599c7d9f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/backend/gra.api/Program.cs",
+      "sha256": "9d1c7ea5db69a60541df87832b40b362706e6517b461575171bda110ab7d14e5"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/backend/gra.api/Dockerfile",
+      "sha256": "2fe1c3e99c342b259c4042fd5447490949ee456791d99fcfced0d2f3426360e2"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-billing/package.json",
+      "sha256": "3048aff38ecbe272d3132f8f6b7bb62ade751aad46b503c31b9237a6669350fe"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-billing/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-billing/src/index.js",
+      "sha256": "0b103eef173def5892d85ae41f904a99ebb4a466a340b0c49f5afdac9483a10f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-embedding/package.json",
+      "sha256": "576f447edc1d4a72bcbc37cd7c6995f7e32a1f646557cb723ff234e90f3c74a9"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-embedding/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-embedding/src/index.js",
+      "sha256": "12686cb944679d0f73e44f840b15f10c80059ad9074ea631710af8dea25810be"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-ingest/package.json",
+      "sha256": "d7bd8394d9ab18d7da1edf5ffd0092c530857b0ad5b712907bab00a048e299be"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-ingest/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/services/node-ingest/src/index.js",
+      "sha256": "7b694e240809975f40e122e21638fa2927d5074ec2ce835a1752f6e1ca69a397"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/ui/package.json",
+      "sha256": "fb19a561295d1babbcf97870072dbf71ee9b929131923978430284b0f7696b7b"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/ui/next.config.js",
+      "sha256": "39e7dd00902641d24131730a18ac06a1fc5d245d6a1a607a095619d874f42d0b"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/ui/Dockerfile",
+      "sha256": "03e76bf0cd566716eac9478f84b1610024b6a1c88852b87a4c4b00d9ae570f1f"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/src/ui/pages/index.js",
+      "sha256": "41b4bbf2aa7f707e9d81f1cdbf06b2acc69dc74faeb636cf4f2aa725d3ec9764"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/testing/k6-script.js",
+      "sha256": "78ebadae5fd5b31935ffb388c389e0c885700dd032a937ab654372063baf98dc"
+    },
+    {
+      "path": "gra-genius-ALL-IN-ONE/gra-genius-ALL-IN-ONE/ultimate/testing/locustfile.py",
+      "sha256": "4f1c86d704aa43d888ae6215f82203dc898917d455e497c7a90e9f06616dbbda"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/README.md",
+      "sha256": "be6d25616b6a3afb17fbb6e2157b56734363915a16d9741231e2f3f46f3145dc"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/Makefile",
+      "sha256": "e75214da2f95a1d77b66a5ba4e4ce537014055394650c216d2512c142fd33255"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/docker-compose.yml",
+      "sha256": "fd178edaa0cfb99930d12324ec0b87af26605cc79dfdbcb2f9f47dc49519c2bb"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/ai/rag_pipeline.py",
+      "sha256": "a001a27696be983fe0715fbd1ac175b6b70eb0b9f2955bd07df9ccefb4400ace"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/ai/finetune_peft.py",
+      "sha256": "667ca473d55e7cba5bb358335a9ae952bfcb66c197d73f0c73a72efed47499a5"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/ai/eval_rag.py",
+      "sha256": "823ff17dcc79862d7d5334f015d70f90d3840ff4daeb556a0a5d054103e804b7"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/ai/requirements.txt",
+      "sha256": "b98a9388aa9d31b420c27ecc7e19ee42f8d6b2d9c00115588cb267ebf16abd3e"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/ci/.gitlab-ci.yml",
+      "sha256": "3b89437d2e347d06b789d12a7106b8e37bd1ec6f3773fd24a100220384171ee4"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/compliance/dpia-template.md",
+      "sha256": "5172b24d6259a3c73e13353c12aa29afa10b7afe3be42830882d510a7a284c0d"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/compliance/compliance-matrix.csv",
+      "sha256": "fdec4410cd9a90fe24cb1b60ed860caa5fe9332ab7835d7033ba403ae4187549"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/compliance/risk-register.json",
+      "sha256": "5f291fc198b22f324eaf8b6ffa04f160f9d2aaabd36c6f322910e708ad7ca2d3"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/compliance/generate_evidence.py",
+      "sha256": "26c30aa3a326d930767de9652d5be12dd3f635201e3cdfc0be0b0e28e4962c39"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/db/schema.sql",
+      "sha256": "882357fcbfacc35e191c06fcc32407a21686c450b44d14b749ba4d21a76df795"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/infra/main.tf",
+      "sha256": "8847d38628b5fff49f426afd296f756efd8e067d348fa62b3606f261b7efc164"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/00-namespaces.yaml",
+      "sha256": "5ef3d0309b98c901f10d29bf6f7e85848ae798d2604dae9446b5d77fcd508a36"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/01-quotas-limits.yaml",
+      "sha256": "a78b2c7c979d2408823df2bf8cdc6c873a1c366a59a93f13fbf00969045639f1"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/02-network-default-deny.yaml",
+      "sha256": "2f82f0d420183c0dd36bdd8d5d7dc9a1e68c6309c459182240a24672d4300056"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/10-postgres.yaml",
+      "sha256": "0d06e00e43bffb7c4fb539d22a1c57e2fc44ca9f14e457df036d970726038356"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/11-redis.yaml",
+      "sha256": "0de729652e68d107d6d24327d7a22279acc74d6cd01e1d3372e16559132c662a"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/12-minio.yaml",
+      "sha256": "a48722392a8e1deb6ae0f8145cc97e9cba46e3aff1c469c5982df6f0f83c63b2"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/platform/vault.yaml",
+      "sha256": "7e8d1c8fe7fa405e4c7a264ecbc73471c5f8343872d78620910bdc79d2b3193e"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/platform/keycloak.yaml",
+      "sha256": "512f7e73173f08a0c98bf9974ea2ff093ba2e2590e8b75f6fd4d13f46bd34814"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/platform/gitlab.yaml",
+      "sha256": "20dcf7c5d54619d6c7d2ca4aedb54f2c79324e1e4dbaf06b1ae1b3f0359e3496"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/k8s/platform/gitlab-runner.yaml",
+      "sha256": "f8529c23ef43f749ab5903dff0429c91e46abffc4fbec2992eafb3ee6b32b468"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/observability/grafana/dashboards/slo-api.json",
+      "sha256": "169bbd0e75bab5c8af1940e4aacdb48202c0f33aba0b005ccdd116c2332c6641"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/observability/loki/config.yml",
+      "sha256": "8ab06a90b77e7fbbe6caa3da1a4ca34696001ad21c339e10c04aecf8830c33b8"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/observability/prometheus/prometheus.yml",
+      "sha256": "fb4f9dfc2984ae369758d8ac239efa860f293d3088cdf5c91df6385a5741ff30"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/scripts/bootstrap.sh",
+      "sha256": "9d7e09fccaac37490ae098f047073bd8cf6b153fd7ebf7a00fe4af7d0ee43d3e"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/scripts/deploy-core.sh",
+      "sha256": "bdee09c823223437b7593aca8cc931a39bd970f0e54ce7452714aa6903d72e52"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/scripts/deploy-apps.sh",
+      "sha256": "6a58005733f85574f2b866f12b5616dab7813d16327a3ff10ffd03c9dee49920"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/security/kyverno-require-signature.yaml",
+      "sha256": "26f3c78ac9987d8241529efee770a8b3711ca06913e8dee47a39e31ed6f60b0c"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/backend/gra.api/gra.api.csproj",
+      "sha256": "b3a7c7279cbf69b276b22b3e22d3f0d492b416156ae60f735ce1762c599c7d9f"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/backend/gra.api/Program.cs",
+      "sha256": "9d1c7ea5db69a60541df87832b40b362706e6517b461575171bda110ab7d14e5"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/backend/gra.api/Dockerfile",
+      "sha256": "2fe1c3e99c342b259c4042fd5447490949ee456791d99fcfced0d2f3426360e2"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-billing/package.json",
+      "sha256": "3048aff38ecbe272d3132f8f6b7bb62ade751aad46b503c31b9237a6669350fe"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-billing/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-billing/src/index.js",
+      "sha256": "0b103eef173def5892d85ae41f904a99ebb4a466a340b0c49f5afdac9483a10f"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-embedding/package.json",
+      "sha256": "576f447edc1d4a72bcbc37cd7c6995f7e32a1f646557cb723ff234e90f3c74a9"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-embedding/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-embedding/src/index.js",
+      "sha256": "12686cb944679d0f73e44f840b15f10c80059ad9074ea631710af8dea25810be"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-ingest/package.json",
+      "sha256": "d7bd8394d9ab18d7da1edf5ffd0092c530857b0ad5b712907bab00a048e299be"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-ingest/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/services/node-ingest/src/index.js",
+      "sha256": "7b694e240809975f40e122e21638fa2927d5074ec2ce835a1752f6e1ca69a397"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/ui/package.json",
+      "sha256": "fb19a561295d1babbcf97870072dbf71ee9b929131923978430284b0f7696b7b"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/ui/next.config.js",
+      "sha256": "39e7dd00902641d24131730a18ac06a1fc5d245d6a1a607a095619d874f42d0b"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/ui/Dockerfile",
+      "sha256": "03e76bf0cd566716eac9478f84b1610024b6a1c88852b87a4c4b00d9ae570f1f"
+    },
+    {
+      "path": "gra-genius-W-release/gra-genius-W/src/ui/pages/index.js",
+      "sha256": "41b4bbf2aa7f707e9d81f1cdbf06b2acc69dc74faeb636cf4f2aa725d3ec9764"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/.gitlab-ci.yml",
+      "sha256": "09ac4b2e640ac8ac10e6cd0a6ba81183c8b4831633837b11152a1b0129ea0fe4"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/ai/rag_pipeline_improved.py",
+      "sha256": "f378d58971f016b3e46083b37a210e736d948c1efc7c5eb61a079c080b4e94d4"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/docs/DEPLOYMENT-PLUS.md",
+      "sha256": "c2a2b4e8198d01d0bff44e172bd6c150b18a6f39a8f16120ae11a8ea6f71ba08"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/docs/RAG-GUARDS.md",
+      "sha256": "ebd6a457d459d54085c3d366558681fc734ef252af08bf022a9f3b75456e46d8"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/ai/vllm-improved.yaml",
+      "sha256": "093c595a8e912946cbbe01e0967a00991f8b77c2bc3fdf533df3d2e858f41c39"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/apps/ingress-improved.yaml",
+      "sha256": "87f22ab1234e3d43203b6fb306417a881266d40ac8241c99456d38c3d3c5ce1a"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/apps/api-deployment-improved.yaml",
+      "sha256": "99f71db98470fd9e237c96349c9c407d6650eb68485ecec52afcfdc6510a21f2"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/apps/ui-deployment-improved.yaml",
+      "sha256": "fdb9bdcbef3a0de8a0dd2af788a2983fe6c1b0a1a6355274b952fc05e3e2080b"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/cert-manager/selfsigned-issuer.yaml",
+      "sha256": "b68c4f036d5c8e1bf0cc79bfa65e5ce7efbfecdd1925fe1aaca1cd62860d5724"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/data/storageclass-cinder.yaml",
+      "sha256": "fa891209db3839e4e3a49fcf8c395c74e631c2f24b2bc3ba8cb6c3c6efdfddff"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/data/db-secrets.yaml",
+      "sha256": "17c79d427578f96b411a39af1d0e75161023b26d32e486ffd43af443a2110c8c"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/data/postgres-init-configmap.yaml",
+      "sha256": "1e48a960462c58f4fa95f7b3d1e9388769ee335a6f3db9a73257370f3ab5c903"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/data/postgres-improved.yaml",
+      "sha256": "1a9457f846274da6e11255f9405cb986042a93d8380d48fa7b3824ad56b6db6d"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/observability/prometheus-rules.yaml",
+      "sha256": "94d77cad197e381dcc8e893e577422e79ed583d7c1b99a18d7c217ec169d3af3"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/security/networkpolicy-allow-core-egress.yaml",
+      "sha256": "94b5ca77f9bfc069af90799b6e59afac0e0c6a4abdc9b305630864ab1b37cdea"
+    },
+    {
+      "path": "gra-genius-hardening-pack-2025.1/k8s/security/clusterimagepolicy.yaml",
+      "sha256": "398759422f8064624edbb7784fe4cb979beb44810c45a298547a2ba384eaa46b"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/README.md",
+      "sha256": "2ef9062a3be5575e41e67008484eb9a89799f0da2900aec7065cee815ef30fba"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/LICENSE",
+      "sha256": "f7330aa3fd97daff42f508efbdc70c624194afbfb832a803d0a02029da0e508e"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/Makefile",
+      "sha256": "941a917fe2563ff42dd2efeafcc74064aa269d7132dbabd5d3faeadefc1d2ec5"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/docker-compose.yml",
+      "sha256": "1cf157c08738b574b63b9d3ea03dc4e4f522cb239eb297c93c314ec206d2473d"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ai/rag_pipeline.py",
+      "sha256": "bce8ee8f49bfb73ef9a275186c678d76cea64044d9320ebf968c5bba229bf4f8"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ai/finetune_peft.py",
+      "sha256": "d63b6a993ddb2c11b942e73ec975dcef4a65f8d69136b536a07d7738a4a8997d"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ai/requirements.txt",
+      "sha256": "53c5dcc9b14039bf0a73e7fbd710c5524b7aab3fa83dddb5fcb7b6ba21be6825"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ai/vllm-deployment.yaml",
+      "sha256": "c63b7452dd72fa1f797ebcd133950939ae78003070c4192f7718a4fd4e9074b9"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ci/.gitlab-ci.yml",
+      "sha256": "df3b31be9999beb4bf7bf329352e5f291942d1844e5ed9b2992ef87eb1e71014"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/compliance/compliance-matrix.csv",
+      "sha256": "cde7bf535facbedbcede04b0d561bf4b92cae9160b87a6cdba4cb3a42abfee29"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/compliance/dpia-template.md",
+      "sha256": "054f7a8cddd0a7b70e5cb188bb6a2d67e72848c0ed8429d3c08eb7b7cd667cb0"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/compliance/risk-register.json",
+      "sha256": "b8156d1a0002851b73d8482e404cea81b97accd8aea26b84e36178cc0d78522e"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/compliance/generate_evidence.py",
+      "sha256": "3400a086c25359f08c2bc44125e8d4ec2d53c5de36c21335c1ce093211c15210"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/db/schema.sql",
+      "sha256": "e39581b7d2d347ef946e1af5e9e3d24839f08f3acad223c85283b6b82d4051bf"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/db/pgbouncer.ini",
+      "sha256": "944d8c7ecdc6be612207465a776ccb08af1b01d8741000a442a2061120fe812a"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/docs/GRA-Genius-Execution-Plan.md",
+      "sha256": "3f875e6a50166ae4ad3733a72212ffdd5e25d9c56d7d721e76555725aa5b57c8"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/infra/main.tf",
+      "sha256": "31494b8860e24647d6206b0e057616284171646c61f8760ff64dd86afeef3416"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/infra/variables.tf",
+      "sha256": "f41958ccf5604b9d36d09d87bae778671c7d404bf009c0974b2aef3f3ae9f60f"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/infra/outputs.tf",
+      "sha256": "ebd8f4d1dff728810aa6eb67052a1008664b57d3b516f3398bad9ddd65ad2a10"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/k8s/namespaces.yaml",
+      "sha256": "5ef3d0309b98c901f10d29bf6f7e85848ae798d2604dae9446b5d77fcd508a36"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/k8s/networkpolicy-deny-egress.yaml",
+      "sha256": "7d34aad64b6907135c7ac6c25115193c8e520e0662ff45b5c94bea9e2e8f2a64"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/k8s/postgres.yaml",
+      "sha256": "7c6540801d8a34095222d4d5727a24e8ffb693f966ee32f74d89bfe57f326146"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/k8s/redis.yaml",
+      "sha256": "40e11fb54794da4d4fec335b17a98025ae20df903d92a646723159c7695cad1d"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/k8s/vllm.yaml",
+      "sha256": "443827a0ac657d97a71f0dbbd2efdf99c123c3568d12fd86c13ccdeae7845338"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/k8s/observability.yaml",
+      "sha256": "48af6779f09afaaa913184f39a3fb23d5e5ecdf8a154ad89dd8627bfdb52ed50"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/observability/loki/config.yml",
+      "sha256": "71072a75f23a439b1afe7028480d2ef7ed88f0b7be1852b32a0e7b2537dc58e9"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/observability/prometheus/prometheus.yml",
+      "sha256": "ec4522262bb73d5f4e53c76d1c790d22799aa7e9d0861c0a2aa95262acb80a5c"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ops/runbook-backup-restore.md",
+      "sha256": "1f230ae9453789c80fdddcd7a6c413552f33a288e23097c6dfa20e1bb8cce30c"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/ops/runbook-incident-response.md",
+      "sha256": "70d0e17301368899d3c6e3cdb568040d723cece3d32dc7b4abe0e4f3a810692a"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/scripts/bootstrap.sh",
+      "sha256": "2f1a36db09005582e003380a94888a18aecfb9aa37e7141926178507f4f254e8"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/scripts/deploy.sh",
+      "sha256": "796e1c457d8ddc957041c722a3e06295a25ac10cc9d475bcaca62b30e3b31212"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/security/gatekeeper-cosign-constraint-template.yaml",
+      "sha256": "27c1a52f4791ade1b5cf171085679ad7741156f1b661d457c4d5b100093ac8a6"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/security/network-default-deny.yaml",
+      "sha256": "2f82f0d420183c0dd36bdd8d5d7dc9a1e68c6309c459182240a24672d4300056"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/backend/gra.api/gra.api.csproj",
+      "sha256": "a340204a249d3e794e5bd42bca41aa0d8bb213412e88d095d1a521c983be2ba8"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/backend/gra.api/Program.cs",
+      "sha256": "214ceca47b520dc0f67096cf90f81da857e481285c59f33f6de58fbf9836b69d"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/backend/gra.api/Dockerfile",
+      "sha256": "2fe1c3e99c342b259c4042fd5447490949ee456791d99fcfced0d2f3426360e2"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-billing/package.json",
+      "sha256": "3048aff38ecbe272d3132f8f6b7bb62ade751aad46b503c31b9237a6669350fe"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-billing/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-billing/src/index.js",
+      "sha256": "552122af29b008f565009333fe9b7c51ac3989751134fd3a1516c9e2fbe7e452"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-embedding/package.json",
+      "sha256": "576f447edc1d4a72bcbc37cd7c6995f7e32a1f646557cb723ff234e90f3c74a9"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-embedding/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-embedding/src/index.js",
+      "sha256": "876d38fd1e4ff49dfa376f185ff664f9a361beeaa3695e4f0be69aed6deafa61"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-ingest/package.json",
+      "sha256": "d7bd8394d9ab18d7da1edf5ffd0092c530857b0ad5b712907bab00a048e299be"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-ingest/Dockerfile",
+      "sha256": "1cc2dcaa320634bcf82ba2c1052c2f5c50f589bcfdaa33bbf72721c389907285"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/services/node-ingest/src/index.js",
+      "sha256": "15c0e2b650ca328028b3b87a2168d8d2a69c5542470153d3af708801e003ad37"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/ui/package.json",
+      "sha256": "fb19a561295d1babbcf97870072dbf71ee9b929131923978430284b0f7696b7b"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/ui/next.config.js",
+      "sha256": "39e7dd00902641d24131730a18ac06a1fc5d245d6a1a607a095619d874f42d0b"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/ui/Dockerfile",
+      "sha256": "c291b8cd762ad8565702b267fbae16659ee2a9630f4fb47506b45047b759af9f"
+    },
+    {
+      "path": "gra-genius-starter-kit/gra-genius/src/ui/pages/index.js",
+      "sha256": "3592569905b84fb4eae4577471335163a55659a4a040126f33d92d65df0929e8"
+    },
+    {
+      "path": "k8s/security/cluster-image-policy.yaml",
+      "sha256": "879b286c4a7f4372c100b0651b03cc521ca81fee09794ebdf2147c360db6a990"
+    },
+    {
+      "path": "k8s/observability/alerts.yaml",
+      "sha256": "ecdc110db8428afb7c22fb603c2c9d7c87ef0141adeac940e08a5fa6d4ef56f6"
+    },
+    {
+      "path": "secrets/cosign.pub",
+      "sha256": "67050eb02cff713d9e230da8587ebfa81c4266734dd9ba9a50879633c4fd5387"
+    },
+    {
+      "path": "src/backend/gra.api/Program.cs",
+      "sha256": "e9d5acd1cf4c45c5d596ce81ec035cb418f186adc42ccf15ed40f369d6d4ca2c"
+    },
+    {
+      "path": "src/backend/gra.api/Startup.cs",
+      "sha256": "4ef37c017391ac062ef0af64dc714e05f892f2de94fddb73e35f2cb8cb48ed40"
+    },
+    {
+      "path": "src/services/db/init_extensions.sql",
+      "sha256": "41d745da3753646ad51eafa48f77312965fd9f5fd9490d970819ce900f17a2f8"
+    }
+  ]
+}
